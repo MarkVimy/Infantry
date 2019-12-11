@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options Connection="1" IsRTTSession="0" IsRTTWithTimeStamp="1" SamplingPeriod="100" SerialNo="0" JTAG_IRPre="-1" JTAG_DRPre="-1" IP="" TargetDevice="STM32F407VE" TargetInterface="SWD" InterfaceSpeed="4000" />
+            </JLink>
+            <ScriptFile Name="D:\STM32 学习记录\F4系列\f4模版 (陀螺仪加温漂)_20191205\Project\Objects\bullet.jscope\unspecified" />
+            <ElfFile Name="D:\STM32 学习记录\F4系列\f4模版 (陀螺仪加温漂)_20191205\Project\Objects\project.axf" />
+            <DataFile Name="" />
+            <RawFile Name="" />
+            <Scope>
+                <Options TimeResolutionUs="500000" />
+            </Scope>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="timePressedShoot" Address="0x20000970" Type="short" TypeID="11" Size="2" GraphColorRed="255" GraphColorGreen="215" GraphColorBlue="0" YMinSampled="-32768" YMaxSampled="4235" YAvgSampled="0" Offset="4" ShowInGraph="0" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="5000" MaxValue="10000" File="..\TASK\Task_Revolver.c" Scope="1" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="AngleRampBuffer" Address="0x20000938" Type="float" TypeID="1" Size="4" GraphColorRed="0" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="0" YMaxSampled="3784704" YAvgSampled="139938" Offset="6" ShowInGraph="0" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="2000000" MaxValue="4000000" File="..\TASK\Task_Revolver.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="js_shoot_num" Address="0x20000972" Type="ushort" TypeID="7" Size="2" GraphColorRed="102" GraphColorGreen="102" GraphColorBlue="178" YMinSampled="0" YMaxSampled="264" YAvgSampled="8" Offset="10" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="200" MaxValue="550" File="..\TASK\Task_Revolver.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options Connection="1" IsRTTSession="0" IsRTTWithTimeStamp="1" SamplingPeriod="100" SerialNo="0" JTAG_IRPre="-1" JTAG_DRPre="-1" IP="localhost" TargetDevice="STM32F407VE" TargetInterface="SWD" InterfaceSpeed="4000" />
+            </JLink>
+            <ScriptFile Name="unspecified" />
+            <ElfFile Name="D:\STM32 学习记录\F4系列\f4模版 (陀螺仪加温漂)_20191208\Project\Objects\project.axf" />
+            <DataFile Name="" />
+            <RawFile Name="" />
+            <Scope>
+                <Options TimeResolutionUs="1000000" />
+            </Scope>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="js_yaw_angle" Address="0x200009CC" Type="float" TypeID="1" Size="4" GraphColorRed="255" GraphColorGreen="215" GraphColorBlue="0" YMinSampled="-2147483648" YMaxSampled="-2147483648" YAvgSampled="-2147483648" Offset="4" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="0" YResolution="20" MaxValue="200" File="..\TASK\Task_Gimbal.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="js_yaw_speed" Address="0x200009D0" Type="float" TypeID="1" Size="4" GraphColorRed="0" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="-2147483648" YMaxSampled="-2147483648" YAvgSampled="-2147483648" Offset="8" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="0" YResolution="500" MaxValue="400" File="..\TASK\Task_Gimbal.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="yaw_angle_speed" Address="0x200009C4" Type="float" TypeID="1" Size="4" GraphColorRed="102" GraphColorGreen="102" GraphColorBlue="178" YMinSampled="-2147483648" YMaxSampled="-2147483648" YAvgSampled="-2147483648" Offset="12" ShowInGraph="0" ACCoupling="0" YOffset="200" IsAutoConfig="0" YResolution="1" MaxValue="2" File="..\TASK\Task_Gimbal.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>
